@@ -79,6 +79,7 @@ Exemplo de corpo da requisição:{
 - 201 Created → sucesso
 - 409 Conflict → usuário já existe
 - 422 Unprocessable Entity → campos inválidos
+------------------------------------------------------------------
 
 ### Tweets
 
@@ -93,13 +94,13 @@ Exemplo de corpo da requisição:{
 - 201 Created → sucesso
 - 401 Unauthorized → usuário não encontrado
 - 422 Unprocessable Entity → campos inválidos
-
+------------------------------------------------------------------
 
 - `GET /tweets`: Lista todos os tweets em ordem decrescente.
 
 **Respostas esperadas**
 - 200 OK → sucesso
-
+------------------------------------------------------------------
 
 - `PUT /tweets/:id`: Atualiza um tweet específico.
 ```
@@ -112,11 +113,14 @@ Exemplo de corpo da requisição:{
 - 204 No Content → sucesso
 - 404 Not Found → tweet não encontrado
 - 422 Unprocessable Entity → campos inválidos
+------------------------------------------------------------------
 
 - `DELETE /tweets/:id`: Deleta um tweet específico.
 
+**Respostas esperadas**
 - 204 No Content → sucesso
 - 404 Not Found → tweet não encontrado
+------------------------------------------------------------------
 
 ## 📘 Observações
 As coleções users e tweets são usadas no MongoDB.
