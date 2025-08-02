@@ -20,7 +20,7 @@ tweteroo_backend/
 │ ├── controllers/
 │ ├── routes/
 │ └── schemas/
-├── .env
+├── .env.example
 ├── .gitignore
 ├── package.json
 └── README.md
