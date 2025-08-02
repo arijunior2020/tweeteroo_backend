@@ -75,7 +75,7 @@ Exemplo de corpo da requisição:{
   "avatar": "https://bobesponja.com.br/imagens/thumbnail.png"
 }
 ```
-**### Respostas esperadas**
+**Respostas esperadas**
 - 201 Created → sucesso
 - 409 Conflict → usuário já existe
 - 422 Unprocessable Entity → campos inválidos
@@ -89,16 +89,16 @@ Exemplo de corpo da requisição:{
   "content": "Eu sou um exemplo de tweet!"
 }
 ```
-**### Respostas esperadas**
-- 201 Created → sucesso
-- 401 Unauthorized → usuário não encontrado
-- 422 Unprocessable Entity → campos inválidos
+**Respostas esperadas**
+  -- 201 Created → sucesso
+  -- 401 Unauthorized → usuário não encontrado
+  -- 422 Unprocessable Entity → campos inválidos
 
 
 - `GET /tweets`: Lista todos os tweets em ordem decrescente.
 
-**### Respostas esperadas**
-- 200 OK → sucesso
+**Respostas esperadas**
+  -- 200 OK → sucesso
 
 
 - `PUT /tweets/:id`: Atualiza um tweet específico.
@@ -108,15 +108,15 @@ Exemplo de corpo da requisição:{
   "tweet": "Eu sou um tweet atualizado!"
 }
 ```
-**### Respostas esperadas**
-- 204 No Content → sucesso
-- 404 Not Found → tweet não encontrado
-- 422 Unprocessable Entity → campos inválidos
+**Respostas esperadas**
+  -- 204 No Content → sucesso
+  -- 404 Not Found → tweet não encontrado
+  -- 422 Unprocessable Entity → campos inválidos
 
 - `DELETE /tweets/:id`: Deleta um tweet específico.
 
-204 No Content → sucesso
-404 Not Found → tweet não encontrado
+  -- 204 No Content → sucesso
+  -- 404 Not Found → tweet não encontrado
 
 ## 📘 Observações
 As coleções users e tweets são usadas no MongoDB.
