@@ -12,6 +12,7 @@ API REST que simula o funcionamento básico do antigo Twitter, desenvolvida em N
 
 ## 📁 Estrutura
 
+```plaintext
 tweteroo_backend/
 ├── src/
 │ ├── app.js
@@ -23,13 +24,14 @@ tweteroo_backend/
 ├── .gitignore
 ├── package.json
 └── README.md
+```
 
 ## 📦 Instalação e uso
 
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/tweteroo-backend.git
+git clone https://github.com/arijunior2020/tweteroo-backend.git
 cd tweteroo-backend
 ```
 
